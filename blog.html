@@ -1,0 +1,154 @@
+<!-- blog -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Site Study</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- font links here -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- internal styles here -->
+        <style></style>
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="imgs/cits-spaceinvaderbus-logo.png">
+        <!-- my font awesome link  -->
+        <script src="https://kit.fontawesome.com/47dbeea7ee.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    <!-- header -->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html">
+                    
+                        <img src="imgs/cits-spaceinvaderbus-logo.png"></a>
+                    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">TRACKS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>In Person & Virtual Programs for 2022</h1>
+        </section>
+    <!-- header end -->
+
+        <!-- blog page content start  -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="imgs/carl-heyerdahl-domore (1).jpg" alt="certificate">
+                    <h2>In Person & Virtual Programs for 2022</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada.</p>
+
+                    <!-- comment box start -->
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea type="textarea" rows="5" placeholder="Your Comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn blk-btn"> POST COMMENT</button>
+                    </form>
+                </div>
+                <!-- comment box end -->
+            </div>
+
+                
+
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Web Development</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Game Development</span>
+                        <span>40</span>
+                    </div>
+                    <div>
+                        <span>Python</span>
+                        <span>33</span>
+                    </div>
+                    <div>
+                        <span>Information Technology</span>
+                        <span>21</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+           
+
+        <!-- blog page content end  -->
+
+    <!-- Footer Start -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus.</p>
+            <!-- socials -->
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-regular fa-heart"></i> by Erth Industries 
+                <!-- <i class="fa-regular fa-copyright"></i> 2022</p> -->
+        </section>
+    <!-- Footer End -->
+
+ 
+
+        <script src="script.js"></script>
+
+        <!-- Javascript for Toggle Menu - It Works :) -->
+
+       <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+             navLinks.style.right = "-200px";
+            }
+       </script> 
+       
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,271 @@
+<!-- index -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Site Study</title>
+        <!-- stylesheet -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- font links here -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- internal styles here -->
+        <style></style>
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="imgs/cits-spaceinvaderbus-logo.png">
+        <!-- my font awesome link  -->
+        <script src="https://kit.fontawesome.com/47dbeea7ee.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="https://www.codeintheschools.org/" target="_blank">
+
+                        <!-- header logo -->
+                        <img src="imgs/cits-spaceinvaderbus-logo.png"></a>
+                    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">TRACKS</a></li>
+                        <li><a href="balt.html">BALT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="imgcontainer">
+               
+            </div>
+        </section>
+
+        <!-- Course Start -->
+
+        <section class="course">
+
+            <h1>Tracks</h1>
+            <p>We nurture young people’s ability to think both critically, improving their tech skills using industry-standard tools within various technology tracks and working with top professionals in the Baltimore Tech ecosystem.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Game Dev</h3>
+                    <p>Video game development is the process of developing a video game. The effort is undertaken by a developer, ranging from a single person to an international team dispersed across the globe.</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Web Dev</h3>
+                    <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Python</h3>
+                    <p>Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation./p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Course Finish -->
+
+        <!-- Campus Start -->
+
+        <section class="campus">
+            <h1>Our Campus</h1>
+            <p><a href="https://www.ubalt.edu/index.cfm?utm_source=google&utm_medium=search&utm_campaign=ub-fy22-digital&utm_content=brand&gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3kPPJXpFawMJiyy_PcPVDgA6yno7msRe11XcZvWDUwJahKgvhg95pwaAhw3EALw_wcB" target="_blank">The University of Baltimore</a> is a public university in Baltimore, Maryland, offering bachelor's, master's and doctoral degrees. It is part of the University System of Maryland. UB's schools and colleges provide education in business, law, public affairs, and the applied arts and sciences.</p>
+
+            <div class="row">
+                <!--  -->
+                <div class="campus-col">
+                    <img src="imgs/university_of_baltimore_campus.jpg" alt="university of baltimore">
+                    <div class="layer">
+                        <h3><img src="imgs/ub-logo-big (1).svg"></h3>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="campus-col">
+                    <img src="imgs/university_of_baltimore_campus.jpg">
+                    <div class="layer">
+                        <!-- ? creating new div ? -->
+                        <h3><img src="imgs/ub-logo-big (1).svg"></h3>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="campus-col">
+                    <img src="imgs/university_of_baltimore_campus.jpg">
+                    <div class="layer">
+                        <h3><img src="imgs/ub-logo-big (1).svg"></h3>
+                    </div>
+                </div>  
+
+            </div> <!-- class row close -->
+        </section>
+
+        <!-- Campus Finish -->
+
+        <!-- Facilities Start -->
+
+        <!-- <section class="facilities">
+            <h1>Facilities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <div class="row">
+
+                <div class="facilities-col">
+                    <img src="imgs/ralston-smith-one.jpg">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="imgs/ralston-smith-one.jpg">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="imgs/ralston-smith-one.jpg">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+            </div>
+        </section> -->
+
+        <!-- Facilities Finish -->
+
+        <!-- Testimonials Start -->
+
+        <section class="testimonials">
+            <h1>Junior Developer's Journal</h1>
+            <p> Developer journals are personal, but they usually encompass a mix of solutions, notes, helpful tricks, and quick links to resources.</p>
+
+        <!-- makes testimonial blocks -->
+            <div class="row">
+
+                <div class="testimonials-col">
+                    <!-- png logo or img with circular border radius -->
+                    <img src="imgs/cits-spaceinvaderbus-logo.png">
+                    <div>
+                        <p>This summer I got to experience an internship through Baltimore Tracks. I interned at an organization called Ecomaps.
+                            Ecomaps is an organization that helps startup companies find resources. They create an ecosystem where different organizations can quickly find one another and collaborate.</p>
+                        <h3>Ian Davis</h3>
+                        <!-- font awesome rating stars -->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <!-- <i class="fa-regular fa-star-half-stroke"></i> -->
+                    </div>
+                </div>
+
+                <div class="testimonials-col">
+                    <!-- png logo or img with circular border radius -->
+                    <img src="imgs/cits-spaceinvaderbus-logo.png">
+                    <div>
+                        <p>Overall, my experience with the Baltimore Tracks
+                            Program has been great. I worked with the company EcoMap for
+                            four weeks. Throughout my internship, my job was to load
+                            information onto the DCI (data collection interface). Everyday I
+                            went through a list of companies and searched their websites for
+                            specific information to plug in to the DCI.</p>
+                        <h3>Mysta Groom</h3>
+                        <!-- font awesome rating stars -->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Testimonials Finish -->
+
+        <!-- Call to Action -->
+
+        <section class="cta">
+            <h1>Programs and Courses</h1>
+            <a href="https://www.codeintheschools.org/codeworks" target="_blank" class="hero-btn">CONTACT US</a>
+
+        </section>
+
+        <!-- Call to Action Finish -->
+
+        <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Code in the Schools empower Baltimore City youth by expanding access to computer science education and building pathways to jobs and higher education.</p>
+        <!-- socials -->
+            <div class="icons">
+                <a href="https://www.instagram.com/codeintheschools/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/CodeintheSchool" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/CodeInTheSchools/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <!-- <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-linkedin"></i> -->
+            </div>
+            <p>Made with <i class="fa-regular fa-heart"></i> by Web Dev Teams for CodeWorks 2022 &copy;</p>
+                <!-- <i class="fa-regular fa-copyright"></i> 2022</p> -->
+        </section>
+
+        <!-- Footer End -->
+
+        <div class="text-box">
+            <h3>Code in the Schools</h3>
+            <!-- note: add gradient to h1 later -->
+            <h1 style="color: #01a3e3">CODEWORKS2022</h1>
+            <p>CodeWorks is a 5-week experience where Baltimore City residents between ages 14 and 21 get paid to learn real-world tech skills!<br>
+            In 2022, we’ll run both in-person and virtual CodeWorks programs.</p>
+           
+            <a href="https://www.codeintheschools.org/codeworks" target="_blank" class="hero-btn">Visit Us To Know More</a>
+
+            <div class="photocred">
+                Photo by <a href="https://unsplash.com/@heylagostechie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Desola (Sector-6)</a>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+        <!-- Javascript for Toggle Menu - It Works :) -->
+
+       <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+             navLinks.style.right = "-200px";
+            }
+       </script> 
+       
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

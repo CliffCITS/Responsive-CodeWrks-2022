@@ -1,0 +1,110 @@
+<!-- python -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Site Study</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- font links here -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- internal styles here -->
+        <style></style>
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="imgs/cits-spaceinvaderbus-logo.png">
+        <!-- my font awesome link  -->
+        <script src="https://kit.fontawesome.com/47dbeea7ee.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    <!-- header -->
+        <section class="sub-header">
+            <nav>
+                <a href="ihttps://www.codeintheschools.org/" target="_blank">
+                    
+                        <img src="imgs/cits-spaceinvaderbus-logo.png"></a>
+                    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">TRACKS</a></li>
+                        <li><a href="balt.html">BALT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Python</h1>
+        </section>
+
+        <!-- header end -->
+
+        <!-- game dev content start -->
+
+        <!-- Game Dev -->
+
+        <section class="course">
+
+        <h1>Python Projects</h1>
+        <p style="line-height:30px;">Python is a high-level, interpreted, general-purpose programming language. <br> <a href="course.html">Back to CodeWorks Tracks</a></p>
+
+        <div class="row">
+            <div class="course-col">
+                <a href="#" target="_blank"><h3>Aviator DLC</h3></a>
+                <p>Junior developers will use the arcade library to create a simple 2D game.  Developers will create a game called Aviator. The objective of the game is for a plane to travel through evil clouds and make it to the airport safe.</p>
+            </div>
+
+            <div class="course-col">
+                <a href="game_recommend.exe" target="_blank"><h3>Game Recommend DLC</h3></a>
+                <p>Developers are tasked with creating a quiz that will make a recommendation to the user as to which game they should play based on their interests. Based on those answers a recommendation will be made on which games should be played and in what order</p>
+            </div>
+
+            <div class="course-col">
+                <a href="#" target="_blank"><h3>Chat Bot DLC</h3></a>
+                <p>This chat bot will be able to communicate with the site user, have simple conversations, direct the user around the site, and answer questions about CodeWorks.</p>
+            </div>
+        </div>
+
+    </section>
+
+        <!-- game dev content end -->
+
+        <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Code in the Schools empower Baltimore City youth by expanding access to computer science education and building pathways to jobs and higher education.</p>
+        <!-- socials -->
+            <div class="icons">
+                <a href="https://www.instagram.com/codeintheschools/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/CodeintheSchool" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/CodeInTheSchools/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <!-- <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-linkedin"></i> -->
+            </div>
+            <p>Made with <i class="fa-regular fa-heart"></i> by Web Dev Teams for CodeWorks 2022 &copy;</p>
+                <!-- <i class="fa-regular fa-copyright"></i> 2022</p> -->
+        </section>
+
+        <!-- Footer End -->
+
+        <script src="script.js"></script>
+
+        <!-- Javascript for Toggle Menu - It Works :) -->
+
+       <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+             navLinks.style.right = "-200px";
+            }
+       </script> 
+       
+    </body>
+</html>
